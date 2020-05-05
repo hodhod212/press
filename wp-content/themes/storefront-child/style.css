@@ -1,0 +1,85 @@
+/*
+Theme Name: Storefront Child 
+Theme URI: https://woocommerce.com/storefront/
+Template: storefront
+Author: Ali Ezadkhaha
+Author URI: https://gothenburg-clothing.herokuapp.com/
+Description: Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,accessibility-ready,rtl-language-support,footer-widgets,sticky-post,theme-options,editor-style
+Version: 2.5.5.1588083495
+Updated: 2020-04-28 14:18:15
+
+*/
+.event {
+  display: flex;
+  align-items: center;
+  margin: 36px 0;
+}
+.event__image {
+  margin-right: 36px;
+}
+.event__image img {
+  border-radius: 50%;
+  max-width: 300px;
+}
+.event__content {
+  color: #333;
+}
+.event__time {
+  font-style: italic;
+  color: #f25252;
+}
+.event__link {
+  font-weight: bold;
+}
+/*footer*/
+footer {
+  justify-content: center;
+  text-align: center;
+}
+/* Google map style */
+.acf-map {
+  width: 100%;
+  height: 400px;
+  border: #ccc solid 1px;
+  margin: 20px 0;
+}
+/* fixes potential theme css conflict */
+.acf-map img {
+  max-width: inherit !important;
+}
+body {
+  background: lightblue;
+}
+/* Remove title */
+.site-info {
+  display: none;
+}
+/* coupon */
+.saless {
+  display: inline;
+}
+.sales {
+  color: #f25252;
+  display: inline;
+}
+/* Form */
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  margin: 10px 0;
+}
+.contact-form label {
+  font-size: larger;
+}
+.contact-form input {
+  padding: 5px;
+}
+#cf_message {
+  width: 90%;
+  padding: 10px;
+}
+#cf_send {
+  padding: 5px 10px;
+}

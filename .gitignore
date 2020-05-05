@@ -1,6 +1,6 @@
 wp-admin/
 wp-includes/
-
+plugins/
 license.txt
 readme.html
 wp-activate.php
@@ -17,4 +17,10 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
-wp-content/
+ai1wm-backups/
+cache/
+upgrade/
+uploads/
+w3tc-config/
+woocommerce/
+storefront/
